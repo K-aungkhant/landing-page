@@ -1,6 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.whole {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 auto;
+}
+
 /* first-section */
 
-.first-section {
+.first{
     background-color: #1F2937;
     padding: 20px 100px;
 }
@@ -10,6 +23,7 @@
     justify-content: space-between;
     font-size: 24px;
     color: #F9FAF8;
+    margin-top: 20px;
 }
 
 ul {
@@ -41,6 +55,8 @@ p {
 }
 
 .center {
+    padding: 50px 0px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -66,6 +82,117 @@ p {
     background-color:#2b292a;
     min-width: 400px;
     min-height: 200px;
+    margin-bottom: 30px;
 }
 
 /* second-section */
+.second {
+   background-color: white;
+   padding: 20px;
+}
+
+h2 {
+    padding: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.square {
+    border: 3px solid #3882F6;
+    display: flex;
+    border-radius: 8px;
+    width: 130px;
+    height: 130px;
+}
+
+.boxes {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.subtext {
+    color: black;
+    display: flex;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.image-container p {
+    max-width: 130px;
+}
+/* third section */
+
+.third {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 300px;
+    padding: 60px;
+}
+
+.quote {
+    font-size: 30px;
+    color: black;
+    max-width: 700px;
+    max-height: 300px;
+    padding: 50px;
+    
+}
+
+.thor {
+    color: black;
+    font-weight: bold;
+    text-align: end;
+    padding-right: 30px;
+}
+
+/* fourth section */
+
+.fourth {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.bluebox {
+    display: flex;
+    background-color: #3882F6;
+    min-width: 800px;
+    min-height: 130px;
+    padding: 30px 60px;
+    border-radius: 5px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bluebox button {
+    color: white;
+    border: 2px solid white;
+    background-color: #3882F6;
+}
+
+.itstime {
+    font-size: large;
+    font-weight: bold;
+}
+
+/* footer */
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 20px;
+}
